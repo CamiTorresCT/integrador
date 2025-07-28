@@ -39,3 +39,6 @@ def mostrar_datos(visitas):
 def main():
     visitas = registrar_visitas()
     mostrar_datos(visitas)
+
+if _name_ == "_main_":
+    main()
