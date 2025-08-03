@@ -42,6 +42,4 @@ def main():
     visitas = registrar_visitas()  # Llama a la función para registrar visitas y guarda el resultado
     mostrar_datos(visitas)  # Llama a la función para mostrar los datos
 
-
-if __name__ == "__main__":
-    main()  # Ejecuta la función principal si el archivo se ejecuta directamente
+main()  # Ejecutamos todo el programa
